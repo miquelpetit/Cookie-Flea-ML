@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Your Name]*
+*Chao, Miquel i Pau*
 
-*[Your Cohort, Campus & Date]*
+*Data Analytics Bootcamp, Barcelona Summer 2019*
 
 ## Content
 - [Project Description](#project-description)
@@ -21,28 +21,24 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+This project take part in a datathon and is about implement ML. In this case we are told that a company of cookies, Cookie Flea, want to improve the the recipe in order to improve the quality of the cookies and reduce the costs such as money and time.
+The point with ML is to predict (with the more convinient model) the quality of the cookie before starting its production.
 
 <a name="hypotheses-/-questions"></a>
 
 ## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer? 
-* What is he context for the question and the scientific or business application? 
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+We are going to look what are the most important features that affect more importanly to the quality of the cookies. This questions are related to the business aplication
+
 
 <a name="dataset"></a>
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API? If so, provide the scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+The data has been provided for the teachers from Ironhack in a private way. The dataset in csv format, is compounded by 5198 rows and 22 columns. All with the information of the cookies, for instance physical differences, ingredients and properties that each cookie has. The command used to charge the dataset is "df = pd.read_csv("cookies.csv")".
 
 <a name="cleaning"></a>
 
 ## Cleaning
-Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did, etc, as well as your thinking process.
+We did a first inspection of the dataset and checked the types and NaN values in the differents columns. We dealed with the NaN's, in order to fill up the free spot we used a median to fill up and the outliers. We followed with the creation of dummy columns because there is object types.
 
 <a name="analysis"></a>
 
